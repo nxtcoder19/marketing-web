@@ -1,0 +1,18 @@
+version: '3'
+
+tasks:
+  default:
+    cmds:
+      - task: build
+
+  dev:
+    cmds:
+      - pnpm run dev
+
+  build:
+    cmds:
+      - pnpm run build
+
+  lint:
+    cmds:
+      - pnpm run lint
