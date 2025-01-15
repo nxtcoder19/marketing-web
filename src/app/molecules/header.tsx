@@ -8,7 +8,11 @@ export const Header = () => {
                 <nav className="flex items-center justify-between h-16 lg:h-20">
                     <div className="flex-shrink-0">
                         <a href="/" title="" className="flex">
-                            <img className="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" />
+                            <img className="w-auto h-8 lg:h-10" 
+                                src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" 
+                                // src="/assets/nxt-logo.png"
+                                alt="" 
+                            />
                         </a>
                     </div>
 
@@ -32,6 +36,8 @@ export const Header = () => {
                         <a href="contact-us" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Contact us </a>
 
                         <a href="pricing" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Pricing </a>
+
+                        <a href="services" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Services </a>
                     </div>
 
                     <a href="#" title="" className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Get started now </a>
@@ -48,6 +54,8 @@ export const Header = () => {
                             <a href="contact-us" title="" className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Contact us </a>
 
                             <a href="pricing" title="" className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Pricing </a>
+
+                            <a href="services" title="" className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Services </a>
                         </div>
                     </div>
 
