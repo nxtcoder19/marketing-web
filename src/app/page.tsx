@@ -4,7 +4,7 @@ import { HeroFour } from "./orgs/hero-four";
 import { HeroOne } from "./orgs/hero-one";
 import { HeroThree } from "./orgs/hero-three";
 import { HeroTwo } from "./orgs/hero-two";
-import { TesteMonitorOne } from "./orgs/testemonial-one";
+import { TestimonialSection } from "./orgs/testemonial-one";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
 
         {/* Feature Ui */}
         <FeatureOne />
-        <TesteMonitorOne />
+        <TestimonialSection />
         <FAQ />
       </main>
     </div>

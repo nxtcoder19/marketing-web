@@ -13,6 +13,10 @@ tasks:
     cmds:
       - pnpm run build
 
+  run:build:
+    cmds:
+      - pnpm run start
+
   lint:
     cmds:
       - pnpm run lint
